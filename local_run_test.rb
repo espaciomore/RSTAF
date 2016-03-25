@@ -59,7 +59,7 @@ class LocalRunTest
     @console_error_message = "
     The syntax of this command is:\truby run_test.rb [OPTIONS] | [CLASSNAMES]\n
     Examples:\n 
-    > ruby run_test.rb --prod --ff Tests_SiteMap_SiteMapTest
+    > ruby run_test.rb --prod --ff Tests_Sitemap_SitemapTest
     > ruby server_run_test.rb --qa
     > ruby client_run_test.rb
     
