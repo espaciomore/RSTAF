@@ -8,7 +8,7 @@ class Config_Email
     if options == nil
       @options[:sender] = 'INSERT SENDER EMAIL ADDRESS'
       @options[:recipients] = 'INSERT RECIPIENT EMAIL ADDRESS'
-      @options[:body] = "An Error has ocurred while running the regression tests for Noodle Site.\n\nFor more information see the attachments."
+      @options[:body] = "An Error has ocurred while running the regression tests for the Site.\n\nFor more information see the attachments."
       @options[:subject] = 'UAT Notification'
       @options[:attachment] = ""
     else
